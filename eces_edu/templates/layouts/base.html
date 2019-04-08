@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+  <title>{%block title%} ECES-Edu {%endblock%}</title>
+</head>
+<body>
+  <div class="page">
+    <div class="en-tete">
+      {% include 'layouts/nav.html'%}
+    </div>
+
+    <div class="corps juju">
+      <div class="corps-contenu">
+            {% block content %} {% endblock %}
+      </div>
+    </div>
+
+    <div class="pied">
+      {% include 'layouts/footer.html'%}
+    </div>
+  </div>
+</body>
+</html>

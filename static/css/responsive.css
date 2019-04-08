@@ -1,0 +1,184 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .pied{
+    height: 100px;
+  }
+  .pied p{
+    padding-top: 40px
+  }
+  .etudiant{
+    margin-bottom: 72px;
+  }
+  .bas{
+    width: 100%;
+    margin: 0;
+  }
+  .haut{
+    width: 100%;
+  }
+  .logo{
+    display: none;
+  }
+  .nav-droite{
+    margin-top:25px;
+    margin-left:25px;
+    float: left;
+  }
+  .nav-droite a{
+    font-size: 15px;
+  }
+  .acceuil{
+    margin: 50px auto;
+    width: 90%;
+  }
+  h1{
+    font-size: 19px;
+  }
+  p{
+    padding: 10px;
+  }
+  .pied p{
+    font-size: 13px
+  }
+  .haut img{
+    margin-top:15px;
+    margin-left: 65px;
+    width:200px;
+    height:200px;
+    border-radius:100px
+  }
+  .bas p{
+    text-align: justify;
+  }
+
+  .etudiant{
+    width: 90%;
+  }
+  .etudiant h2{
+    font-size: 28px;
+  }
+  .etu-liste a{
+    text-align: center;
+    margin-right: 10px;
+  }
+  .etu-liste{
+    margin-left: 70px;
+    padding: 10px;
+    width: 60%
+  }
+  .etu-liste li{
+    margin-bottom: 15px;
+  }
+  .detailetudiant{
+    width: 95%;
+    margin: 50px auto;
+  }
+  .gauche{
+    width: 100%;
+    margin: 0;
+  }
+  .gauche img{
+    margin-left: 70px;
+    width:200px;
+    height:200px;
+    border-radius:100px
+  }
+  .droit{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .pied{
+    height: 100px;
+  }
+  .pied p{
+    padding-top: 40px
+  }
+  .etudiant{
+    margin-bottom: 72px;
+  }
+  .bas{
+    width: 100%;
+    margin: 0;
+  }
+  .haut{
+    width: 100%;
+  }
+  .logo{
+    display: none;
+  }
+  .nav-droite{
+    margin-top:25px;
+    margin-left:25px;
+    float: left;
+  }
+  .nav-droite a{
+    font-size: 20px;
+    margin-right:23px;
+  }
+  .acceuil{
+    margin: 50px auto;
+    width: 90%;
+  }
+  h1{
+    font-size: 19px;
+  }
+  p{
+    padding: 10px;
+  }
+  .pied p{
+    font-size: 13px
+  }
+  .haut img{
+    margin-top:15px;
+    margin-left: 65px;
+    width:200px;
+    height:200px;
+    border-radius:100px
+  }
+  .bas p{
+    text-align: justify;
+  }
+
+  .etudiant{
+    width: 90%;
+  }
+  .etudiant h2{
+    font-size: 28px;
+  }
+  .etu-liste a{
+    text-align: center;
+    margin-right: 10px;
+  }
+  .etu-liste{
+    margin-left: 70px;
+    padding: 10px;
+    width: 60%
+  }
+  .etu-liste li{
+    margin-bottom: 15px;
+  }
+  .detailetudiant{
+    width: 95%;
+    margin: 50px auto;
+  }
+  .gauche{
+    width: 100%;
+    margin: 0;
+  }
+  .gauche img{
+    margin-left: 100px;
+    width:200px;
+    height:200px;
+    border-radius:100px
+  }
+  .droit{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+  }
+}

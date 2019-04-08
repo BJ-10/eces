@@ -1,0 +1,18 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}ECES-Edu | Etudiants{% endblock%}
+
+{% block content %}
+<div class="etudiant">
+  <div class="etu">
+    <h2>Liste des étudiants</h2>
+    <div class="etu-liste">
+      <ul>
+        {% for e in etudiant %}
+          <li><a href="{% url 'voiretudiant' e.id %}">{{e.matricule}} - {{e.nom|title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}

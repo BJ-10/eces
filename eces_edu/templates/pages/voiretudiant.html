@@ -1,0 +1,25 @@
+ {% extends 'layouts/base.html' %}
+
+{% block title %}ECES-Edu | Etudiants{% endblock%}
+
+{% block content %}
+
+<div class="detailetudiant">
+  <div class="info-etud">
+    <div class="gauche">
+      <img src="{{object.photo.url}}">
+    </div>
+    <div class="droit">
+      Matricule : <b class="gray">{{object.matricule}}</b><br/><br/>
+      Nom : <b class="gray">{{object.nom|upper}}</b><br/><br/>
+      Prenom : <b class="gray">{{object.prenom|title}}</b><br/><br/>
+      Date de naissance : <b class="gray">{{object.date_naissance}}</b><br/><br/>
+      Lieu de naissance : <b class="gray">{{object.lieu_naissance|title}}</b><br/><br/>
+      Niveau : <b class="gray">{{object.niveau|title}}</b><br/><br/>
+      Option : <b class="gray">{{object.filiere|title}}</b><br/><br/>
+      Adresse : <b class="gray">{{object.adresse}}</b><br/><br/>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

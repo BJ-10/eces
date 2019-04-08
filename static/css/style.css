@@ -1,0 +1,190 @@
+/* debut style en-tete
+----------------------------*/
+.en-tete{
+  background-color: #156278;
+  height: 70px;
+}
+.acceuil{
+  width: 80%;
+  border: 2px solid #156278;
+  margin: 84px auto;
+}
+.inline-block{
+  display: inline-block;
+}
+.pied{
+  background-color: #156278;
+}
+.ib{
+  display: inline-block;
+}
+body{
+  background-color: #ffff;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-droite{
+  float: right;
+  margin-top: 15px;
+}
+.nav-droite ul{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-droite li{
+  float: left;
+  list-style-type: none;
+}
+
+.nav-droite a{
+  text-decoration: none;
+  margin-right: 30px;
+  color: white;
+  font-size: 24px;
+}
+
+.logo{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+}
+
+h1{
+  background-color: #156278;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.justify a{
+  text-decoration: none;
+  color: black
+}
+
+.justify a:hover{
+  color: #156278;
+}
+
+.pied p{
+  padding: 10px;
+  text-align: center;
+  background-color: #156278;
+  color: white;
+}
+.haut{
+  float: left;
+  width: 25%;
+  margin-top: 26px;
+}
+.haut img{
+  margin-left: 55px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.bas{
+  float:right;
+  width:65%;
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.bas p{
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size:20px;
+  padding: 15px;
+}
+/* fin style en-tete
+----------------------------*/
+
+/* debut style etudiant
+----------------------------*/
+
+h2{
+  color: white;
+  text-align: center;
+  background-color: #156278;
+  padding: 5px;
+  font-size: 35px;
+}
+.etu-liste{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.etudiant{
+  border: 2px solid #156278;
+  width: 70%;
+  margin: 100px auto;
+  margin-bottom: 34px;
+  height: 394px;
+}
+
+.etu{
+  display: inline-block;
+  width: 100%;
+}
+.etu li{
+  list-style-type: none;
+  float: left;
+  margin-bottom: 10px;
+
+}
+.etu a{
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+  margin-right:25px;
+}
+
+.etu a:hover{
+  color: #156872;
+}
+
+/* fin style etudiant
+---------------------------*/
+
+/* debut style voiretudiant
+-----------------------------*/
+
+.detailetudiant{
+  width: 70%;
+  margin: 108px auto;
+}
+.info-etud{
+  display: inline-block;
+  width: 100%;
+}
+.gauche{
+  float: left;
+  margin-left: 210px;
+}
+
+.droit{
+  width: 50%;
+  float: right;
+}
+.gray{
+  color: gray;
+}
+
+.gauche img{
+  width: 200px;
+  border-radius: 20px;
+  height: 295px;
+  border: 1px solid #f1f1f1;
+}
+
+/* fin style voiretudiant
+---------------------------*/
